@@ -1,0 +1,76 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Ubuntu+Mono&display=swap');
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que a largura e a altura incluam a borda e o preenchimento */
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Garante que a altura da tela seja coberta */
+    background-color: #ecc039;
+}
+
+img {
+    width: 100%; /* Faz a imagem ocupar 100% da largura do contêiner */
+    max-width: 180px; /* Define uma largura máxima para a imagem */
+    height: auto; /* Mantém a proporção original da imagem */
+}
+
+.container {
+    font-family: 'Russo One', sem serifa;
+    text-align: center; /* Centraliza o texto e outros elementos dentro do contêiner */
+    margin-top: 20px;
+}
+
+.container h1 {
+    font-size: 5vw; /* Usando unidade de viewport width para tornar o tamanho da fonte responsivo */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0.3em;
+    color: #de4f15;
+}
+
+.container p {
+    font-size: 3vw; /* Usando unidade de viewport width para tornar o tamanho da fonte responsivo */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #de4f15;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 2vw; /* Usando unidade de viewport width para tornar o tamanho da fonte responsivo */
+    text-align: center;
+    width: 80%; /* Faz o campo de entrada ocupar 80% da largura do contêiner pai */
+    max-width: 150px; /* Define uma largura máxima para o campo de entrada */
+    height: 4vw; /* Usando unidade de viewport width para tornar a altura responsiva */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+span {
+    border: none;
+    width: 60%; /* Faz a borda ocupar 90% da largura do contêiner pai */
+    max-width: 320px; /* Define uma largura máxima para a borda */
+    height: 10vw; /* Usando unidade de viewport width para tornar a altura responsiva */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw; /* Usando unidade de viewport width para tornar o tamanho da fonte responsivo */
+    margin: 1px auto; /* Centraliza a borda verticalmente e a margem no topo/baixo */
+    color: #de4f15;
+    font-weight: bold;
+}
+
+button{
+     width: 180px;
+    height: 50px;
+    border: none;
+    background: #de4f15;
+    color: #ecc039;
+    font-size: 35px;
+}
