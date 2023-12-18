@@ -74,3 +74,12 @@ button{
     color: #ecc039;
     font-size: 35px;
 }
+
+footer {
+    padding: 7px;
+    margin-top: 20px;
+    text-align: center;
+    color: #000000;   
+    font-size: 14px;
+
+}
